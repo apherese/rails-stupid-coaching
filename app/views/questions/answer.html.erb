@@ -1,0 +1,15 @@
+<div class='container'>
+  <h1>Stupid Coaching</h1>
+  <p><%= @question %></p>
+  <p><%= '-You' %></p>
+
+  <div class='bg-warning bg-opacity-25'>
+    <p class='fw-bold'><%= @answer %></p>
+    <p><%= '-Coach' %></p>
+  </div>
+
+  <div class='text-decoration-none'>
+    <%= link_to 'ask a new question', '/ask' %>
+  </div>
+
+</div>
